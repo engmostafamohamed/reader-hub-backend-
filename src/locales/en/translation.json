@@ -1,0 +1,21 @@
+{
+    "register_success": "User registered successfully",
+    "register_error": "Registration failed",
+    "validation_error": "Validation failed",
+    "missing_fields": "All fields (email, password, firstName, lastName, role) are required",
+    "unauthorized": "Unauthorized",
+    "invalid_token": "Invalid token",
+    "email_exist": "Email already exists",
+    "internal_error": "Internal server error",
+    "validation": {
+        "email_required": "Email is required.",
+        "email_invalid": "Invalid email format.",
+        "password_required": "Password is required.",
+        "password_length": "Password must be at least 6 characters.",
+        "firstName_required": "First name is required.",
+        "lastName_required": "Last name is required.",
+        "role_required": "Role is required.",
+        "all_fields_required": "All fields ({fields}) are required."
+    }
+}
+  

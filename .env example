@@ -1,0 +1,28 @@
+NODE_ENV=staging
+# NODE_ENV=production
+PORT=3030
+# MONGO_URI=mongodb+srv://HR:hr@cluster0.0imewrd.mongodb.net?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI=mongodb+srv://HR:hr@cluster0.0imewrd.mongodb.net/reader_hub_prod?retryWrites=true&w=majority&appName=Cluster0
+production_url=Readerhub.eu-north-1.elasticbeanstalk.com
+staging_url=http://localhost
+
+# DB_NAME=reader_hub_dev
+DB_NAME=reader_hub_prod
+DB_USERNAME=HR
+DB_PASSWORD=hr
+JWT_SECRET=my_super_secret_jwt_key_123
+
+# aws configuration
+AWS_ACCESS_KEY_ID=NEW_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY=NEW_SECRET_KEY
+AWS_REGION=us-east-1
+SES_FROM_EMAIL=eng.mostafa155@gmail.com
+
+# SMTP (Amazon SES)
+Host=email-smtp.us-east-1.amazonaws.com
+Port=587
+SMTP_USERNAME=your_smtp_username
+SMTP_PASSWORD=your_smtp_password
+
+# Verified 'From' email
+SES_FROM_EMAIL=your_verified_email@example.com

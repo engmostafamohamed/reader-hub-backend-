@@ -1,0 +1,32 @@
+{
+    "register_success": "تم تسجيل المستخدم بنجاح",
+    "register_error": "فشل التسجيل",
+    "validation_error": "فشل التحقق",
+    "unauthorized": "غير مصرح",
+    "invalid_token": "رمز غير صالح",
+    "missing_fields": "يجب ملء جميع الحقول",
+    "email_exist": "البريد الإلكتروني موجود بالفعل",
+    "internal_error": "خطأ في الخادم الداخلي",
+    "validation": {
+        "email_required": "البريد الإلكتروني مطلوب.",
+        "email_already_verified": "البريد الإلكتروني تم التحقق منه بالفعل",
+        "email_not_found": "البريد الإلكتروني غير موجود.",
+        "Invalid_email": "البريد الإلكتروني غير صالح.",
+        "email_invalid": "تنسيق البريد الإلكتروني غير صالح.",
+        "password_required": "كلمة المرور مطلوبة.",
+        "password_length": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.",
+        "OTP_must_be_digits": "الرمز السري (OTP) يجب أن يحتوي على 4 إلى 6 أرقام فقط.",
+        "OTP_must_be_4_6_digits": "كلمة المرور غير صال",
+        "send_otp":"OTP تم ارسال ",
+        "verified_rest_password_otp":"تم تاكيد OTP لاعاده ادخال كلمة مرور",
+        "verified_otp":" تم تفعيل البريد الالكتروني",
+        "invalid_or_expired_otp":"OTP غير فعال او منتهي الصلاحية ",
+        "password_reset": "تم تغير كلمة السر بنجاح",
+        "firstName_required": "الاسم الأول مطلوب.",
+        "lastName_required": "اسم العائلة مطلوب.",
+        "role_required": "الدور مطلوب.",
+        "role_invalid": "الدور غير مطابق.",
+        "all_fields_required": "جميع الحقول ({fields}) مطلوبة."
+    }
+}
+  

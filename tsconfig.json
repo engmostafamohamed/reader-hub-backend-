@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",          // Set root directory to project root
+    "outDir": "./dist",        // Output directory
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": [
+    "src/**/*",             // All files in src
+    "migrate-mongo-config.ts" // Explicitly include root file
+  ],
+  "exclude": ["node_modules"]
+}
