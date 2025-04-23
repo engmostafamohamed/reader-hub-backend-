@@ -41,9 +41,9 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          region: ${{ secrets.AWS_REGION }}
-          application_name: ${{ secrets.EB_APPLICATION_NAME }}
-          environment_name: ${{ secrets.EB_ENVIRONMENT_NAME }}
+          region: us-east-1
+          application_name: reader-hub
+          environment_name: Reader-hub-env
           version_label: v-${{ github.sha }}
           
           deployment_package: deploy.zip
